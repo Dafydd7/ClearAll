@@ -1,0 +1,25 @@
+#This will be the permission for the command
+command-permission: "admin.clean"
+#Below, will be a list of all items.
+#Please follow the example when creating a new item.
+#Note: Display-Name and Display-Lore are optional.
+items:
+  itemWithNameAndLore:
+    material: STONE_SWORD
+    display:
+      name: "&9&lStone Sword"
+      lore:
+        - ""
+        - "&bThis is an example sword"
+  itemWithNameOnly:
+    material: STONE_PICKAXE
+    display:
+      name: "&9&lStone Pickaxe"
+  itemWithLoreOnly:
+    material: STONE_AXE
+    display:
+      lore:
+        - ""
+        - "&bThis is an example axe"
+  itemWithMaterialOnly:
+    material: STONE_SPADE

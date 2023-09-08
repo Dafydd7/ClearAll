@@ -1,0 +1,7 @@
+name: ClearAll
+version: '${project.version}'
+main: org.dafy.clearall.ClearAll
+author: Dafydd
+description: A plugin created for bukkit user Cubefun.
+commands:
+  ClearAll:
